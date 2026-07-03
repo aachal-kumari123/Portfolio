@@ -68,9 +68,14 @@ function PortFolio() {
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
                   Video
                 </button>
-                <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">
-                  Source code
-                </button>
+                <a
+  href="https://portfolio-eta-liard-65.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded inline-block"
+>
+  Live Demo
+</a>
               </div>
             </div>
           ))}
