@@ -13,31 +13,31 @@ function PortFolio() {
       logo: mongoDB,
       name: "WordToPdfConverter",
     },
-    {
-      id: 2,
-      logo: express,
-      name: "Express",
-    },
-    {
-      id: 3,
-      logo: reactjs,
-      name: "ReactJS",
-    },
-    {
-      id: 4,
-      logo: nodejs,
-      name: "NodeJS",
-    },
-    {
-      id: 5,
-      logo: python,
-      name: "Python",
-    },
-    {
-      id: 6,
-      logo: java,
-      name: "Java",
-    },
+    // {
+    //   id: 2,
+    //   logo: express,
+    //   name: "Express",
+    // },
+    // {
+    //   id: 3,
+    //   logo: reactjs,
+    //   name: "ReactJS",
+    // },
+    // {
+    //   id: 4,
+    //   logo: nodejs,
+    //   name: "NodeJS",
+    // },
+    // {
+    //   id: 5,
+    //   logo: python,
+    //   name: "Python",
+    // },
+    // {
+    //   id: 6,
+    //   logo: java,
+    //   name: "Java",
+    // },
   ];
   return (
     <div
@@ -65,17 +65,17 @@ function PortFolio() {
                 </p>
               </div>
               <div className=" px-6 py-4 space-x-3 justify-around">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
+                {/* <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">
                   Video
-                </button>
+                </button> */}
                 <a
-  href="https://portfolio-eta-liard-65.vercel.app/"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded inline-block"
->
-  Live Demo
-</a>
+                  href="https://portfolio-eta-liard-65.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded inline-block"
+                >
+                  Live Demo
+                </a>
               </div>
             </div>
           ))}
