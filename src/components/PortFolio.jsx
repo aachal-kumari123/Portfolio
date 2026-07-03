@@ -1,7 +1,8 @@
 import React from "react";
 import java from "../../public/java.png";
 import python from "../../public/python.webp";
-import mongoDB from "../../public/mongodb.jpg";
+import mongoDB from "../../public/word.webp";
+
 import express from "../../public/express.png";
 import reactjs from "../../public/reactjs.png";
 import nodejs from "../../public/node.png";
@@ -10,7 +11,7 @@ function PortFolio() {
     {
       id: 1,
       logo: mongoDB,
-      name: "MongoDB",
+      name: "WordToPdfConverter",
     },
     {
       id: 2,
@@ -44,7 +45,7 @@ function PortFolio() {
       className="max-w-screen-2xl container mx-auto px-4 md:px-20 mt-10"
     >
       <div>
-        <h1 className="text-3xl font-bold mb-5">PortFolio</h1>
+        <h1 className="text-3xl font-bold mb-5">Projects</h1>
         <span className=" underline font-semibold">Featured Projects</span>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-3 my-5">
           {cardItem.map(({ id, logo, name }) => (
